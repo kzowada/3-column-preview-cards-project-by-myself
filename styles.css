@@ -1,0 +1,27 @@
+
+
+#container {
+    position: absolute;
+    border-radius: 5px;
+    width: 850px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0 0 -425px;
+    display: flex;
+    flex-direction: row;
+}
+
+#sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 5px;
+}
+
+#suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 5px;
+}
