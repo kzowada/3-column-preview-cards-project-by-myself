@@ -37,4 +37,4 @@ My process was simply going of off what I learned over at freeCodeCamp and apply
 ## Author
 
 - freeCodeCamp - [@kzowada](https://www.freecodecamp.org/karsten)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@kzowada](https://www.frontendmentor.io/profile/kzowada)
