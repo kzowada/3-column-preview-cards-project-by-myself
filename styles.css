@@ -3,6 +3,7 @@
 #container {
     position: absolute;
     border-radius: 5px;
+    overflow: hidden;
     width: 850px;
     height: 500px;
     top: 50%;
@@ -12,16 +13,65 @@
     flex-direction: row;
 }
 
+img {
+    padding-top: 70px;
+    padding-left: 40px;
+}
+
 #sedan {
     background-color: hsl(31, 77%, 52%);
-    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    
 }
 
 #suv {
     background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
 }
 
 #luxury {
     background-color: hsl(179, 100%, 13%);
-    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: Big Shoulders Display;
+    padding-left: 40px;
+}
+
+.paragraph {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca;
+    font-size: 15px;
+    padding-left: 40px;
+    padding-right: 30px;
+    line-height: 1.6;
+}
+
+.learnMore-Button {
+    height: 40px;
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 40px;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 100px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    mix-blend-mode: screen;
+    
+}
+
+.attribution {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
