@@ -114,11 +114,20 @@ h2 {
 /*Im having issues to apply my media query because safari doenst allow to resize its window down to 375px. So Im not able to actually see 
 my changes applying to the layout. If some could help me out about this i would be very thankfull.*/
 
-@media  screen and (max-width: 375px) {
+@media  screen and (max-width: 850px) {
 
-    #container {
+    .container {
+        height: auto;
+        width: 350px;
         display: flex;
         flex-direction: column;
+        border-radius: 10px;
+        overflow: hidden;
+        border-collapse: separate;
+    }
+
+    .learnMore-Button {
+        margin-bottom: 50px;
     }
     
 }
